@@ -3,6 +3,6 @@
   "extends": ["stylelint-config-standard", "stylelint-config-standard-scss"],
   "ignoreFiles": ["**/*.js", "**/*.jsx", "**/*.tsx", "**/*.ts", "**/*.json"],
   "rules": {
-    "indentation": 4
+    "declaration-property-value-no-unknown": true
   }
 }
